@@ -1,0 +1,9 @@
+[package]
+name = "kickdosage/pigment"
+version = "0.1.0"
+description = "A collection of color utilities for Roblox."
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
