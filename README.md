@@ -1,6 +1,7 @@
 # OVERVIEW
 `pigment` is a collection of utility functions for working with colors in Roblox.
 
+# API REFERENCE
 ## hsl(hue, saturation, lightness)
 A wrapper around `Color3.fromHSV` to avoid using the [0, 1] range.
 ```luau
