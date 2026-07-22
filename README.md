@@ -36,7 +36,7 @@ local color_sequence = ColorSequence.new({
     ColorSequenceKeypoint.new(1, hsl(0, 0, 90))
 }),
 
-local is_dark = pigment.is_color_dark(color_sequence)
+local is_dark = pigment.is_color_sequence_dark(color_sequence)
 ```
 
 ## get_brightest_color_in_color_sequence(color_sequence)
