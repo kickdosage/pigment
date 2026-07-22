@@ -39,7 +39,7 @@ local color_sequence = ColorSequence.new({
 local is_dark = pigment.is_color_dark(color_sequence)
 ```
 
-## pigment.get_brightest_color_in_color_sequence(color_sequence)
+## get_brightest_color_in_color_sequence(color_sequence)
 Returns the color with the highest luminance.
 ```luau
 local hsl = pigment.hsl
